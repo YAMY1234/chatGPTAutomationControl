@@ -1,10 +1,9 @@
 from flask import Flask, request, jsonify
-import pyautogui
-import pyperclip
-import time
+from flask_cors import CORS
 from automation_script import automate_text_interaction
 
 app = Flask(__name__)
+CORS(app)
 
 @app.route('/call_chatgpt', methods=['POST'])
 def call_chatgpt():
