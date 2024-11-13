@@ -18,7 +18,7 @@ CONFIG = {
     "send_button_position": (int(1006 * 2 / 3), int(730 * 2 / 3)),  # 发送按钮位置
     "scroll_trigger_position": (int(500 * 2 / 3), int(500 * 2 / 3)),  # 滚动触发位置
     "copy_button_position": (int(199 * 2 / 3), int(494 * 2 / 3)),  # 复制按钮位置
-    "scroll_amount": -100,               # 向下滚动单位
+    "scroll_amount": -300,               # 向下滚动单位
     "scroll_duration": 20,               # 滚动持续时间（秒）
     "scroll_interval": 1                 # 滚动间隔（秒）
 }
@@ -67,7 +67,7 @@ def automate_text_interaction(input_content: str) -> str:
 
 # 示例调用
 if __name__ == "__main__":
-    input_text = "讲解一下pyautogui.scroll(-100) 这个-100的含义!"
+    input_text = "一般情况下，全屏同分辨率，相同浏览器相同网站的ui会发生变化吗"
     time.sleep(5)  # 给用户时间切换到目标窗口
     result = automate_text_interaction(input_text)
     print("Output content from clipboard:", result)
