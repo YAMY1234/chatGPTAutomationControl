@@ -17,7 +17,7 @@ CONFIG = {
     "input_text_position": (int(297 * 2 / 3), int(730 * 2 / 3)),  # 输入文字位置
     "send_button_position": (int(1006 * 2 / 3), int(730 * 2 / 3)),  # 发送按钮位置
     "scroll_trigger_position": (int(500 * 2 / 3), int(500 * 2 / 3)),  # 滚动触发位置
-    "copy_button_position": (int(199 * 2 / 3), int(556 * 2 / 3)),  # 复制按钮位置
+    "copy_button_position": (int(199 * 2 / 3), int(494 * 2 / 3)),  # 复制按钮位置
     "scroll_amount": -100,               # 向下滚动单位
     "scroll_duration": 20,               # 滚动持续时间（秒）
     "scroll_interval": 1                 # 滚动间隔（秒）
